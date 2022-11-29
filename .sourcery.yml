@@ -1,0 +1,6 @@
+sources:
+    - BlogExamplesTests
+    - BlogExamples
+templates:
+    - BlogExamplesTests/Sourcery
+output: BlogExamplesTests/Sourcery/Generated/Sourcery.generated.swift
