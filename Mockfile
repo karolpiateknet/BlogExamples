@@ -1,0 +1,10 @@
+BlogExamplesTests:
+  sources:
+    include:
+        - ./BlogExamples
+  output:
+    ./BlogExamplesTests/Sourcery/Generated/Mock.generated.swift
+  targets:
+    - BlogExamplesTests
+  testable: [BlogExamples]
+  import: [UIKit]
